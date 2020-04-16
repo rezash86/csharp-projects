@@ -1,0 +1,11 @@
+C:\Users\Reza\source\repos\session4-projects\session4-projects\bin\Debug\netcoreapp3.1\session4-projects.exe
+C:\Users\Reza\source\repos\session4-projects\session4-projects\bin\Debug\netcoreapp3.1\session4-projects.deps.json
+C:\Users\Reza\source\repos\session4-projects\session4-projects\bin\Debug\netcoreapp3.1\session4-projects.runtimeconfig.json
+C:\Users\Reza\source\repos\session4-projects\session4-projects\bin\Debug\netcoreapp3.1\session4-projects.runtimeconfig.dev.json
+C:\Users\Reza\source\repos\session4-projects\session4-projects\bin\Debug\netcoreapp3.1\session4-projects.dll
+C:\Users\Reza\source\repos\session4-projects\session4-projects\bin\Debug\netcoreapp3.1\session4-projects.pdb
+C:\Users\Reza\source\repos\session4-projects\session4-projects\obj\Debug\netcoreapp3.1\session4-projects.csprojAssemblyReference.cache
+C:\Users\Reza\source\repos\session4-projects\session4-projects\obj\Debug\netcoreapp3.1\session4-projects.AssemblyInfoInputs.cache
+C:\Users\Reza\source\repos\session4-projects\session4-projects\obj\Debug\netcoreapp3.1\session4-projects.AssemblyInfo.cs
+C:\Users\Reza\source\repos\session4-projects\session4-projects\obj\Debug\netcoreapp3.1\session4-projects.dll
+C:\Users\Reza\source\repos\session4-projects\session4-projects\obj\Debug\netcoreapp3.1\session4-projects.pdb

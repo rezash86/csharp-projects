@@ -12,7 +12,8 @@ namespace session3_projects
         {
             ScoreDelegate killDelegate = ScoreByKillCount;
             string playermostKilled = GetPlayerNameTopScore(playerStates, killDelegate);
-            ScoreDelegate flagCapturedDelegate = ScoreByKillCount;
+            ScoreDelegate flagCapturedDelegate = ScoreByFlagCaptured;
+            ScoreDelegate flagCapturedDelegate = ScoreByFlagCaptured;
             string playermostFlagCaptured = GetPlayerNameTopScore(playerStates, flagCapturedDelegate);
 
 
