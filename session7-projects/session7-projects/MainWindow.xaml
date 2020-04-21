@@ -1,0 +1,25 @@
+﻿<Window x:Class="session7_projects.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session7_projects"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Grid>
+        <Button x:Name="button" 
+                Margin="208,105,202,184">
+            <Button.Content>Stop</Button.Content>
+            <Button.Background>Yellow</Button.Background>
+            <Button.FontSize>20</Button.FontSize>
+        </Button>
+        <Button x:Name="button2" Margin="208,147,202,144">
+            <Button.Content>
+                <Rectangle Height="10" Width="10" Fill="Black"></Rectangle>
+            </Button.Content>
+            
+        </Button>
+        <Label Content="Test label" HorizontalAlignment="Left" Margin="208,59,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="test checkbox"  Margin="208,180,0,0"></CheckBox>
+    </Grid>
+</Window>
