@@ -1,0 +1,19 @@
+﻿<Window x:Class="session7_projects.LastChildExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session7_projects"
+        mc:Ignorable="d"
+        Title="LastChildExample" Height="300" Width="300">
+    <DockPanel LastChildFill="False">
+        <Button Content="Top" DockPanel.Dock="Top" Background="Wheat" FontSize="20"></Button>
+        <Button Content="Bottom" DockPanel.Dock="Bottom"  Background="Yellow" FontSize="20"></Button>
+
+        <Button Content="Left" DockPanel.Dock="Left"  Background="Wheat" FontSize="20"></Button>
+        <Button Content="Left" DockPanel.Dock="Left"  Background="Wheat" FontSize="20"></Button>
+
+        <Button Content="Right" DockPanel.Dock="Right"  Background="Yellow" FontSize="20"></Button>
+        <Button Content="Right" DockPanel.Dock="Right" FontSize="20" Background="Yellow"/>
+    </DockPanel>
+</Window>

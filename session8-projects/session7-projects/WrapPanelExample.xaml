@@ -1,0 +1,19 @@
+﻿<Window x:Class="session7_projects.WrapPanelExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session7_projects"
+        mc:Ignorable="d"
+        Title="WrapPanelExample" Height="400" Width="600">
+    <WrapPanel Orientation="Vertical">
+        <Ellipse Width="100" Margin="10" Height="100" Fill="Red"></Ellipse>
+        <Ellipse Width="90" Height="90" Margin="20" Fill="Orange"></Ellipse>
+        <Ellipse Width="80" Height="80" Fill="Yellow"></Ellipse>
+        <Ellipse Width="70" Height="70" Fill="Green"></Ellipse>
+        <Ellipse Width="60" Height="60" Fill="Blue"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="Black"></Ellipse>
+        <Ellipse Width="40" Height="40" Fill="Aqua"></Ellipse>
+        <Ellipse Width="30" Height="30" Fill="Indigo"></Ellipse>
+    </WrapPanel>
+</Window>

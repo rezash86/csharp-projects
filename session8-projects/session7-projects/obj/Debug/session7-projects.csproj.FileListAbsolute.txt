@@ -1,0 +1,16 @@
+C:\Users\Reza\source\repos\session7-projects\session7-projects\bin\Debug\session7-projects.exe.config
+C:\Users\Reza\source\repos\session7-projects\session7-projects\bin\Debug\session7-projects.exe
+C:\Users\Reza\source\repos\session7-projects\session7-projects\bin\Debug\session7-projects.pdb
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects.csprojAssemblyReference.cache
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\MainWindow.g.cs
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\Window1.g.cs
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\App.g.cs
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects_MarkupCompile.cache
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects_MarkupCompile.lref
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\MainWindow.baml
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\Window1.baml
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects.g.resources
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7_projects.Properties.Resources.resources
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects.csproj.GenerateResource.cache
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects.exe
+C:\Users\Reza\source\repos\session7-projects\session7-projects\obj\Debug\session7-projects.pdb
