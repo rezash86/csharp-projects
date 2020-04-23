@@ -1,0 +1,17 @@
+﻿<Window x:Class="session9_projects.ToggleButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session9_projects"
+        mc:Ignorable="d"
+        Title="ToggleButton" Height="350" Width="500">
+    <Grid>
+        <StackPanel>
+            <ToggleButton x:Name="tglButton" Checked="tglButton_Checked" Unchecked="tglButton_Unchecked">
+                any input
+            </ToggleButton>
+            <Label x:Name="lblTest" Width="150" Height="35" HorizontalAlignment="Center"></Label>
+        </StackPanel>
+    </Grid>
+</Window>

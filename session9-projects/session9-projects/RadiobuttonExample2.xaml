@@ -1,0 +1,23 @@
+﻿<Window x:Class="session9_projects.RadiobuttonExample2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session9_projects"
+        mc:Ignorable="d"
+        Title="RadiobuttonExample2" Height="230" Width="260">
+    <StackPanel Margin="10">
+        <Label FontWeight="Bold">Are you ready</Label>
+        <RadioButton x:Name="rb1" GroupName="ready">Yes</RadioButton>
+        <RadioButton x:Name="rb2" GroupName="ready" IsChecked="True">No</RadioButton>
+        <RadioButton x:Name="rb3" GroupName="ready">Maybe</RadioButton>
+
+        <Label FontWeight="Bold">Male or Female</Label>
+        <RadioButton Checked="Generic_Checked" x:Name="rb4" GroupName="gender" IsChecked="True">Male</RadioButton>
+        <RadioButton Checked="Generic_Checked" x:Name="rb5" GroupName="gender">Female</RadioButton>
+        <RadioButton x:Name="rb6" GroupName="gender">Not sure</RadioButton>
+
+        <Button x:Name="btnSelected" Content="FindSelectedItem" Click="btnSelected_Click"></Button>
+            
+    </StackPanel>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="session9_projects.ThreeStateExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session9_projects"
+        mc:Ignorable="d"
+        Title="ThreeStateExample" Height="170" Width="300">
+    <StackPanel>
+        <Label FontWeight="Bold">Application options</Label>
+        <StackPanel Margin="10,5">
+            <CheckBox IsThreeState="True" Name="chAllFeautures" Checked="chAllFeautures_Checked"
+                      Unchecked="chAllFeautures_Checked">Enable All</CheckBox>
+            <StackPanel Margin="20,5">
+                <CheckBox x:Name="cbFeautureAbc" Checked="cbFeauture_Checked" Unchecked="cbFeauture_Checked">Enable feauture ABC</CheckBox>
+                <CheckBox x:Name="cbFeautureXyz" Checked="cbFeauture_Checked" Unchecked="cbFeauture_Checked" IsChecked="True">Enable feauture Xyx</CheckBox>
+                <CheckBox Name="cbFeautureWww" Checked="cbFeauture_Checked" Unchecked="cbFeauture_Checked">Enable feauture WWW</CheckBox>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
