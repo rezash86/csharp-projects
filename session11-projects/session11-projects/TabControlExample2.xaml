@@ -1,0 +1,41 @@
+﻿<Window x:Class="session11_projects.TabControlExample2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session11_projects"
+        mc:Ignorable="d"
+        Title="TabControlExample2" Height="200" Width="250">
+    
+    <Grid>
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <!--<Ellipse Fill="Blue" Width="10" Height="10"></Ellipse>-->
+                        <Image Source="/images/blue.jpg" Width="10" Height="10"></Image>
+                        <TextBlock Text="Blue" Foreground="Blue"></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <!--<Ellipse Fill="Blue" Width="10" Height="10"></Ellipse>-->
+                        <Image Source="/images/blue.jpg" Width="10" Height="10"></Image>
+                        <TextBlock Text="Red" Foreground="Red"></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <!--<Ellipse Fill="Blue" Width="10" Height="10"></Ellipse>-->
+                        <Image Source="/images/blue.jpg" Width="10" Height="10"></Image>
+                        <TextBlock Text="Green" Foreground="Green"></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

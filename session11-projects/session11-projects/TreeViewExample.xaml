@@ -1,0 +1,36 @@
+﻿<Window x:Class="session11_projects.TreeViewExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session11_projects"
+        mc:Ignorable="d"
+        Title="TreeViewExample" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <CheckBox Content="Include Georgia" HorizontalAlignment="Left" Margin="0,10" 
+                      Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"></CheckBox>
+            <TreeView x:Name="tvStates">
+                <TreeViewItem Header="Tennessee">
+                    <TreeViewItem>
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/images/blue.jpg" Width="5" Height="5"></Image>
+                                <TextBlock Text="A" Margin="5"></TextBlock>
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                    <TreeViewItem Header="B"></TreeViewItem>
+                    <TreeViewItem Header="C"></TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="Texas">
+                    <TreeViewItem Header="D"></TreeViewItem>
+                    <TreeViewItem Header="E"></TreeViewItem>
+                    <TreeViewItem Header="F"></TreeViewItem>
+
+                </TreeViewItem>
+
+            </TreeView>
+        </StackPanel>
+    </Grid>
+</Window>
