@@ -1,0 +1,13 @@
+﻿<Window x:Class="session12_projects.Form1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session12_projects"
+        mc:Ignorable="d"
+        Title="Form1" Height="250" Width="500">
+    <StackPanel>
+        <TextBox x:Name="txtfirstName" Width="200" Height="30"></TextBox>
+        <Button x:Name="btnSendValue" Content="Send value" Click="btnSendValue_Click"></Button>
+    </StackPanel>
+</Window>
