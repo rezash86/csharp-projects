@@ -1,0 +1,14 @@
+﻿<Window x:Class="session15_projects.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session15_projects"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" Height="474" Width="680"
+                  AutoGenerateColumns="True" Name="grdCustomers"
+                  ></DataGrid>
+    </Grid>
+</Window>

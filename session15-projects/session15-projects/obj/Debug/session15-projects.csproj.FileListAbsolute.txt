@@ -1,0 +1,14 @@
+C:\Users\Reza\source\repos\session15-projects\session15-projects\bin\Debug\session15-projects.exe.config
+C:\Users\Reza\source\repos\session15-projects\session15-projects\bin\Debug\session15-projects.exe
+C:\Users\Reza\source\repos\session15-projects\session15-projects\bin\Debug\session15-projects.pdb
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects.csprojAssemblyReference.cache
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\MainWindow.g.cs
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\App.g.cs
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects_MarkupCompile.cache
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects_MarkupCompile.lref
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\MainWindow.baml
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects.g.resources
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15_projects.Properties.Resources.resources
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects.csproj.GenerateResource.cache
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects.exe
+C:\Users\Reza\source\repos\session15-projects\session15-projects\obj\Debug\session15-projects.pdb

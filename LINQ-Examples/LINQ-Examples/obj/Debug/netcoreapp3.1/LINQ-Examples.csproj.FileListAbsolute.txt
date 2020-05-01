@@ -1,0 +1,11 @@
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\bin\Debug\netcoreapp3.1\LINQ-Examples.exe
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\bin\Debug\netcoreapp3.1\LINQ-Examples.deps.json
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\bin\Debug\netcoreapp3.1\LINQ-Examples.runtimeconfig.json
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\bin\Debug\netcoreapp3.1\LINQ-Examples.runtimeconfig.dev.json
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\bin\Debug\netcoreapp3.1\LINQ-Examples.dll
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\bin\Debug\netcoreapp3.1\LINQ-Examples.pdb
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\obj\Debug\netcoreapp3.1\LINQ-Examples.csprojAssemblyReference.cache
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\obj\Debug\netcoreapp3.1\LINQ-Examples.AssemblyInfoInputs.cache
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\obj\Debug\netcoreapp3.1\LINQ-Examples.AssemblyInfo.cs
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\obj\Debug\netcoreapp3.1\LINQ-Examples.dll
+C:\Users\Reza\source\repos\LINQ-Examples\LINQ-Examples\obj\Debug\netcoreapp3.1\LINQ-Examples.pdb
