@@ -1,0 +1,11 @@
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\Session17-projects2.exe.config
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\Session17-projects2.exe
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\Session17-projects2.pdb
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\EntityFramework.dll
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\EntityFramework.xml
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\obj\Debug\Session17-projects2.csprojAssemblyReference.cache
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\obj\Debug\Session17-projects2.csproj.CopyComplete
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\obj\Debug\Session17-projects2.exe
+C:\Users\Reza\source\repos\Session17-projects2\Session17-projects2\obj\Debug\Session17-projects2.pdb

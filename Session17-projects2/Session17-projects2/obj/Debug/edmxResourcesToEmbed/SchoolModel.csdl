@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mySchooldbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cours">
+    <Key>
+      <PropertyRef Name="CourseId" />
+    </Key>
+    <Property Name="CourseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Students" Relationship="Self.StudentCourses" FromRole="Courses" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="GradeId" />
+    </Key>
+    <Property Name="GradeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GradeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Section" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_dbo_Students_dbo_Grades_GradeId" FromRole="Grades" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="StudentAddress">
+    <Key>
+      <PropertyRef Name="StudentAddressId" />
+    </Key>
+    <Property Name="StudentAddressId" Type="Int32" Nullable="false" />
+    <Property Name="Address1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Address2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Zipcode" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_dbo_StudentAddresses_dbo_Students_StudentAddressId" FromRole="StudentAddresses" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Precision="3" />
+    <Property Name="Height" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Weight" Type="Single" Nullable="false" />
+    <Property Name="RowVersion" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="GradeId" Type="Int32" />
+    <Property Name="interest2" Type="Single" Nullable="false" />
+    <NavigationProperty Name="Grade" Relationship="Self.FK_dbo_Students_dbo_Grades_GradeId" FromRole="Students" ToRole="Grades" />
+    <NavigationProperty Name="StudentAddress" Relationship="Self.FK_dbo_StudentAddresses_dbo_Students_StudentAddressId" FromRole="Students" ToRole="StudentAddresses" />
+    <NavigationProperty Name="Courses" Relationship="Self.StudentCourses" FromRole="Students" ToRole="Courses" />
+  </EntityType>
+  <EntityType Name="TeacherInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeacherName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ModeOfTeaching" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_Students_dbo_Grades_GradeId">
+    <End Role="Grades" Type="Self.Grade" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grades">
+        <PropertyRef Name="GradeId" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="GradeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_StudentAddresses_dbo_Students_StudentAddressId">
+    <End Role="Students" Type="Self.Student" Multiplicity="1" />
+    <End Role="StudentAddresses" Type="Self.StudentAddress" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="StudentAddresses">
+        <PropertyRef Name="StudentAddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentCourses">
+    <End Role="Courses" Type="Self.Cours" Multiplicity="*" />
+    <End Role="Students" Type="Self.Student" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="mySchooldbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="Courses" EntityType="Self.Cours" />
+    <EntitySet Name="Grades" EntityType="Self.Grade" />
+    <EntitySet Name="StudentAddresses" EntityType="Self.StudentAddress" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="TeacherInfoes" EntityType="Self.TeacherInfo" />
+    <AssociationSet Name="FK_dbo_Students_dbo_Grades_GradeId" Association="Self.FK_dbo_Students_dbo_Grades_GradeId">
+      <End Role="Grades" EntitySet="Grades" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_StudentAddresses_dbo_Students_StudentAddressId" Association="Self.FK_dbo_StudentAddresses_dbo_Students_StudentAddressId">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="StudentAddresses" EntitySet="StudentAddresses" />
+    </AssociationSet>
+    <AssociationSet Name="StudentCourses" Association="Self.StudentCourses">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
