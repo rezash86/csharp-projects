@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPF_Basics_Sample_Application.Assign5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Basics_Sample_Application"
+        mc:Ignorable="d"
+        Title="Assign5" Height="100" Width="200">
+    <StackPanel>
+        <Button Content="Assignment1" Click="Button_Click"></Button>
+        <WrapPanel>
+            <Button Content="Assignment2" Click="Button_Click_1"></Button>
+            <TextBox x:Name="txtCount" Width="50"></TextBox>
+        </WrapPanel>
+        
+        <Button Content="Assignment3" Click="Button_Click_2"></Button>
+    </StackPanel>
+</Window>
